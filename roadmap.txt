@@ -1,0 +1,16 @@
+What queries need to be done
+What UI needs to be implemented
+Have all of the code in one folder (one folder for each component: APPS, REGS, ADS)
+First start off with the database and make sure that it all makes sense
+    Ensure that all of the parts are functioning together and the tables are working with one and another
+    See what all needs to be preserved and everything that needs to be added
+
+Wahtever user you are:
+    you get specific homepage based on the type of user
+        dashboard page
+
+Roadmap TLDR:
+    change .sql file
+        merge sql file to make sure it all works
+    make sure the new sql file works for all of our pages
+    create a dashboard page for each user

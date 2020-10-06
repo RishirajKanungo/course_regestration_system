@@ -1,0 +1,115 @@
+body{
+  background-color: whitesmoke;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align:center;
+}
+
+.header{
+  padding-top: 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #555555; /* Black */
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+li {
+  float: left;
+  margin: 0;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table#t01, table#t01 th, table#t01 td {
+  padding: 2px;
+  margin: auto;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+table#t02, table#t02 th, table#t02 td {
+  color: black;
+  outline-color: black;
+}
+
+.error {color: #FF0000;}
+
+.footer {
+  position: static;
+  /*background-color: whitesmoke;*/
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+.index{
+  padding-top: 40px;
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.index table{
+  text-align: center;
+}
+
+table.center{
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+.index a{
+  width: 300px;
+  display: inline-block;
+  background-color: rgb(207, 207, 207);
+  outline-style: solid;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.index th, td{
+  width: 150px; 
+  text-align: center; 
+  padding: 5px;
+}

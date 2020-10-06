@@ -1,0 +1,80 @@
+body, html {
+    font-family: 'Libre Caslon Text', serif;
+}
+nav{
+    /* background-color: #2a231d; */
+    background-color: #13070d;
+}
+#navbutton:hover {
+    background-color: #ece7df;
+    border-color:#ece7df;
+    color: #13070d;
+}
+label {
+    vertical-align: top;
+}
+form #profile-form {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+table #history {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+thead{
+    background-color: rgb(31, 28, 26);
+    color: white;
+}
+.error{
+    color:#ac2424;
+    font-size: 14px;
+    font-style:italic;
+}
+span{
+    color:#ac2424;
+    font-size: 14px;
+    font-style:italic;
+}
+input[type=button] {
+    background-color: #cdc3a0;
+    color:black;
+    border: 0px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+input[type=button]:hover {
+    background-color: #b8974f;
+    color:black;
+    border: 0px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+a[type=submit] {
+    background-color: #cdc3a0;
+    color:black;
+    border: 0px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+a[type=submit]:hover {
+    background-color: #b8974f;
+    color:black;
+    border: 0px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+input[type=submit] {
+    background-color: #cdc3a0;
+    color:black;
+    border: 0px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+input[type=submit]:hover {
+    background-color: #b8974f;
+    color:black;
+    border: 0px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

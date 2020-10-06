@@ -1,0 +1,108 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+span {
+    font-size: smaller;
+    font-weight: 400;
+    color: #cdc3a0;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: none;
+    padding-bottom: 2%;
+}
+#login-form span {
+    font-size: smaller;
+    font-weight: 400;
+    color: #13070d;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: none;
+    padding-bottom: 2%;
+}
+
+form #signup-form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+div #container-form {
+    display:block; 
+    text-align:center;
+}
+p.reqs {
+    padding-left: 5%;
+    /* padding: none; */
+    margin: none;
+    font-style: italic;
+    text-align: left;
+    font-size: 12px;
+    color: #cdc3a0;
+    transition: ease-in-out;
+}
+#signups {
+    background-color:#322B28;
+    opacity: 0.90;
+}
+
+#signup-text {
+    padding-top: 10%;
+    color: white;
+    vertical-align: middle;
+    padding-bottom: 100px;
+}
+
+#signup-form input:not([type="submit"]) {
+/* .form-control{ */
+    background-color:#130d07;
+    color: #cdc3a0;
+    border-width: 0px;
+    padding: none;
+    margin-bottom: 0px;
+}
+
+#submit-log:hover {
+    background-color: #cdc3a0 ;
+    border-color: #cdc3a0;
+    color:#130d07;
+}
+#submit-log {
+    border-color: #cdc3a0;
+    color:#cdc3a0;
+    font-weight: 500;
+}
+
+#login-log:hover {
+    border-color: #130d07;
+    background-color: #13070d;
+    color: white;
+}
+
+#logins #login-log:hover {
+    border-color: #130d07;
+    background-color: #130d07;
+    color: white;
+}
+
+#logins {
+    background-color: #dfd3c1;
+}
+#input-login {
+    border: 0px;
+    background-color:white;
+}
+
+#already {
+    font-weight: 500;
+}
+
+#signs {
+    font-weight: 200;
+}
+
+#app span .error {
+    color:red;
+}

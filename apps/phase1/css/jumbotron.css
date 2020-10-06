@@ -1,0 +1,16 @@
+#jumbotron{
+    background-image: url('../images/hero.jpg');
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: white;
+    font-weight: bold;
+    /* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
+    /* opacity: 0.8; */
+  }
+  #applybtn{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,12 @@
+input:not([type="submit"]) + .reqs,
+input:not([type="submit"]):focus + .reqs,
+input:not([type="submit"]):active + .reqs{
+  display: none;
+  max-height: 0;
+  transition: max-height 1s ease-in-out;
+}
+input:not([type="submit"]):hover + .reqs {
+  display: block;
+  max-height: 300px;
+  transition: max-height 1s ease-in-out;
+}
